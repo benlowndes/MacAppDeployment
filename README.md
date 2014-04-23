@@ -2,7 +2,8 @@
 I use this script to deploy Mac Apps that I deliver direct to the the customer (not via the Mac App Store). This script is heavily customised but shoud suit as a starting point if you looking to automate your deployments.
 
 The script performs the following operations:  
-1. Takes the path of the app from the clipboard (this is set during the build process."
+
+1. Takes the path of the app from the clipboard (I use a script during the build process to set it).
 2. Zips the file.
 3. Signs the zip file for Sparkle.
 4. Builds the AppCast
@@ -18,7 +19,7 @@ The script performs the following operations:
 
 # TODO
 * Make generic.
-* Support beta releases and test environemnts.
+* Support beta releases and test environments.
 * Generate release notes from git log.
 * Automatically tag release with git.
 * Switch to arguments rather than grapping file path from the clipboard.
